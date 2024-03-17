@@ -6,16 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        let x=42;
-        let y=47;
+   <script>
+    let userInput=prompt("enter the number");
+    let factorial=1;
 
-        let temp=0;
-        temp=x;
-        x=y;
-        y=temp;
-
-        document.write("x="+x+"<br>"+"y="+y)
-    </script>
+    for(let i=userInput; i>=1; i--){
+        factorial *=i;
+    }
+    document.write(factorial);
+   </script> 
 </body>
 </html>

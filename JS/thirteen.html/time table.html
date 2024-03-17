@@ -7,15 +7,13 @@
 </head>
 <body>
     <script>
-        let x=42;
-        let y=47;
+        const userInput=prompt("enter number");
+        let n=1;
+        while(n<=10){
+            document.write(userInput+"x"+n+"="+userInput*n+"<br>");
 
-        let temp=0;
-        temp=x;
-        x=y;
-        y=temp;
-
-        document.write("x="+x+"<br>"+"y="+y)
+            n++;
+        }
     </script>
 </body>
 </html>
